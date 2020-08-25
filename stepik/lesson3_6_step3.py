@@ -32,3 +32,4 @@ def test_guest_should_see_login_link(browser, site):
     input2 = browser.find_element_by_css_selector("pre[class='smart-hints__hint']")
     x = input2.text
     assert "Correct!" == x, f"error in ask: {x}"
+
